@@ -1,0 +1,116 @@
+.userStoryBody {
+  /* background-color: black; */
+  height: 100vh;
+  width: 100%;
+  /* display: flex; */
+  /* flex-direction: co; */
+}
+
+.main-body {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+}
+
+.MuiInputBase-input MuiOutlinedInput-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  background-color: red !important;
+}
+
+.ur-left {
+  width: 50%;
+  padding: 1%;
+}
+
+.ur-right {
+  padding: 1%;
+  width: 49%;
+  border: 0.125rem solid grey; /* You can adjust the border width and color */
+  /* margin-top: 10%; Adjust the margin as needed */
+  /* padding: 0.625rem; Add some padding to the response */
+  /* height: 43.75rem; Make sure the response fills the height of its parent */
+  overflow-y: auto;
+  height: 70vh;
+}
+
+.application-type {
+  /* margin-left: 26px; */
+  width: 99%;
+}
+
+.second-row {
+  margin-top: 30px;
+  /* margin-left: 10%; */
+  /* border: 2px solid blue; */
+  display: flex;
+}
+
+.seconf-row-items {
+  width: 49%;
+  margin-right: 5px;
+}
+
+.init {
+  animation: fadeIn 2s;
+  font-size: 1.5rem;
+  color: rgb(97, 97, 97);
+  text-align: center;
+  margin-top: 2%;
+  /* font-weight: bold; */
+}
+
+.us-button-container {
+  margin-top: 2%;
+  display: flex;
+  justify-content: flex-end; /* Aligns button to the right */
+  /* width: 50%; */
+}
+
+.button-copy {
+  display: flex;
+  width: 100%;
+  /* background-color: red; */
+  justify-content: space-between;
+}
+
+.input-field {
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.input-field .MuiOutlinedInput-input {
+  height: 30px; /* Adjust based on the total input field height */
+}
+
+.scrollable-card-content {
+  max-height: 130px;
+  overflow: auto;
+  scrollbar-width: 0.625rem;
+  scrollbar-color: #0061af transparent;
+}
+
+.scrollable-card-box {
+  max-height: 530px;
+  overflow: auto;
+  scrollbar-width: 0.625rem;
+  scrollbar-color: #0061af transparent;
+}
+
+/* Customize the scrollbar (WebKit browsers) */
+.scrollable-card-content::-webkit-scrollbar {
+  width: 8px; /* Adjust scrollbar width as needed */
+}
+
+.scrollable-card-content::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Adjust track color if needed */
+}
+
+.scrollable-card-content::-webkit-scrollbar-thumb {
+  background: blue; /* Set the thumb color to blue */
+}
+
+.btn-head {
+  display: flex;
+  /* background-color: red; */
+  width: 95%;
+  justify-content: space-between;
+}
